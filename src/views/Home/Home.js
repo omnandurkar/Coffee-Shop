@@ -11,7 +11,10 @@ function Home() {
       <div className='bg  '>
         <Navbar />
       <h1>Home Content</h1>
+
+      
       </div>
+      
 
 
     <Footer/>
