@@ -8,6 +8,7 @@ import ContactUs from "./views/ContactUs/ContactUs";
 import FaQ from "./views/FaQ/FaQ";
 import Review from "./views/Review/Review";
 import Subscriptions from "./views/Subscriptions/Subscriptions";
+import NotFound from "./views/NotFound/NotFound";
 
 function App() {
 
@@ -51,7 +52,14 @@ function App() {
     {
       path: "/subscriptions",
       element: <Subscriptions/>
+    },
+
+    {
+      path: "*",
+      element : <NotFound/>
     }
+
+    
 
 
 
