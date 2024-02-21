@@ -1,0 +1,12 @@
+[
+    {
+        "img":"https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
+        "title":"latte",
+        "content":"A latte, also known as a caffè latte, is a milky coffee originating in Italy, served with a silky layer of foam. They're similar to cappuccinos, but there are some obvious differences - mostly in the ratios of milk, water, and coffee, coming together to create a perfectly balanced milky coffee that possesses an aesthetically pleasing look and an irresistible texture."
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcHVjY2lub3xlbnwwfHwwfHx8MA%3D%3D",
+        "title":"cappuccino",
+        "content":"A cappuccino is the perfect balance of espresso, steamed milk and foam. This coffee is all about the structure and the even splitting of all elements into equal thirds. An expertly made cappuccino should be rich, but not acidic and have a mildly sweet flavouring from the milk. And, because the milk is not actually mixed in it gives the espresso a stronger flavour."
+    }
+]
