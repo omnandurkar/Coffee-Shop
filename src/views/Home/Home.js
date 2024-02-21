@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import './Home.css';
 import Footer from '../../components/Footer/Footer';
+import HomeComp1 from '../../components/HomeComp1/HomeComp1';
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
 
       <div className='bg  '>
         <Navbar />
-      <h1>Home Content</h1>
+        <HomeComp1/>
 
       
       </div>
