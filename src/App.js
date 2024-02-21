@@ -34,22 +34,22 @@ function App() {
     },
 
     {
-      path: "contact",
+      path: "/contact",
       element: <ContactUs/>
     },
 
     {
-      path: "faq",
+      path: "/faq",
       element: <FaQ/>
     },
 
     {
-      path: "review",
+      path: "/review",
       element: <Review/>
     },
 
     {
-      path: "subscriptions",
+      path: "/subscriptions",
       element: <Subscriptions/>
     }
 
