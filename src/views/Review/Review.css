@@ -12,7 +12,7 @@
 .head-img{
     margin-left:650px;
     height:400px;
-    margin-top:-200px;
+    margin-top:-230px;
     border-radius:20px;
 }
 .content-1{
@@ -26,4 +26,9 @@
     margin-top:50px;
     font-family: Oswald, sans-serif;
     font-size:46px;
+}
+.description{
+    font-size:14px;
+    margin-left:70px;
+    margin-top:-10px;
 }
