@@ -3,12 +3,14 @@ import Cards from '../../components/cards/Cards'
 import config from '../../config/coffee.json'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
+import Herosec from '../Hero-section/Herosec'
 
 
 function AllCoffee() {
   return (
     <div className='  '>
       <Navbar/>
+      <Herosec/>
       
       <h2 className='text-center fs-24 mx-2 mt-5 '>Menu</h2>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mx-2 ">
