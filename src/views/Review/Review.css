@@ -2,26 +2,28 @@
     background-color:#fff;
 }
 
-.heading{
-    margin-left:50px;
-    font-size:55px;
-    margin-top:60px;
+.title{
+    margin-left:-750px;
+    font-size:60px;
+    margin-top:150px;
     font-family: Oswald, sans-serif;
+    text-align: center;
 }
 .head-img{
     margin-left:650px;
     height:400px;
-    margin-top:-270px;
+    margin-top:-200px;
     border-radius:20px;
 }
 .content-1{
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    
+
 }
 .heading-1{
     text-align: center;
     margin-top:50px;
     font-family: Oswald, sans-serif;
+    font-size:46px;
 }

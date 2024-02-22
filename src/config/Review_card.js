@@ -23,7 +23,7 @@ const Review_card=[
     title:'Sunny Kumar'
 },
 {
-    content:"This place is very different and well organized according to other places. The food is amazing, music of your choice. The owner is very sweet… Ever the best café. The cost is fair for everything and the atmosphere is good.",
+    content:"This place is very different and well organized according to other places. The food is amazing, music of your choice. The owner is very sweet… Ever the best café.",
     img:'https://wallpapercave.com/wp/wp6127535.jpg',
     title:'Dhumal Vaishnavi'
 },
