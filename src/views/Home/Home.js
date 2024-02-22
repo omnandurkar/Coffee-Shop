@@ -13,7 +13,7 @@ function Home() {
      
         <Navbar />
       
-      {/* <HomeComp1/> */}
+      <HomeComp1/>
 
       <HomeComp2/>
       

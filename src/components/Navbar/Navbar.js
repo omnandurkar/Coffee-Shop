@@ -14,7 +14,7 @@ function Navbar() {
 
     <>
     
-    <nav className="navbar navbar-expand-lg bg-navbar">
+    <nav className="navbar navbar-expand-lg bg-navbar fixed-top shadow-lg ">
   <div className="container-fluid">
     <Link className="navbar-brand fw-bold g-font-b text-uppercase " to="/">
       Coffee Shop
