@@ -15,7 +15,7 @@ export default function HomeComp1() {
         <div className="  border-top g-font-b ">
           <div id="carouselExampleAutoplaying" className="carousel slide " data-bs-ride="carousel">
             <div className="carousel-inner">
-              <div className="carousel-item active" data-bs-interval="2000">
+              <div className="carousel-item active" data-bs-interval="5000">
 
 
                 <div className="container col-xxl-8 px-4 py-5">
@@ -24,7 +24,7 @@ export default function HomeComp1() {
 
                     <div className="col-10 col-sm-8 col-lg-6">
                       <img src={Image2}
-                        className="d-block mx-lg-auto img-fluid rounded " alt="Doraemon Gadget" width="700"
+                        className="d-block mx-lg-auto img-fluid rounded float" alt="Doraemon Gadget" width="700"
                         height="500" loading="lazy" />
                     </div>
 
@@ -45,13 +45,13 @@ export default function HomeComp1() {
 
 
               </div>
-              <div className="carousel-item" data-bs-interval="2000">
+              <div className="carousel-item" data-bs-interval="5000">
 
                 <div className="container col-xxl-8 px-4 py-5">
                   <div className="row flex-lg-row align-items-center g-5 py-5">
 
                     <div className="col-10 col-sm-8 col-lg-6">
-                      <img src={Image3} className="d-block mx-lg-auto img-fluid rounded "
+                      <img src={Image3} className="d-block mx-lg-auto img-fluid rounded float  "
                         alt="Doraemon Gadget" width="700" height="500" loading="lazy" />
                     </div>
 
@@ -72,13 +72,13 @@ export default function HomeComp1() {
                   </div>
                 </div>
               </div>
-              <div className="carousel-item" data-bs-interval="2000">
+              <div className="carousel-item" data-bs-interval="3000">
 
                 <div className="container col-xxl-8 px-4 py-5">
                   <div className="row flex-lg-row align-items-center g-5 py-5">
 
                     <div className="col-10 col-sm-8 col-lg-6">
-                      <img src={Image4} className="d-block mx-lg-auto img-fluid rounded "
+                      <img src={Image4} className="d-block mx-lg-auto img-fluid rounded float "
                         alt="Doraemon Gadget" width="700" height="500" loading="lazy" />
                     </div>
 

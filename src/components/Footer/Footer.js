@@ -1,5 +1,6 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -81,11 +82,26 @@ const Footer = () => {
             <li><a className="fa-brands fa-instagram"></a></li>
           </ul>
           <ul className="links">
+            <Link to="/">
             <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Services</a></li>
-            <li><a>Team</a></li>
+            </Link>
+
+            <Link to="/contact">
             <li><a>Contact</a></li>
+            </Link>
+
+            <Link to="/menu">
+            <li><a>Menu</a></li>
+            </Link>
+
+            <Link to="/review">
+            <li><a>Review</a></li>
+            </Link>
+
+            <Link to="/faq">
+            <li><a>FaQ</a></li>
+            </Link>
+            
           </ul>
           <p className="legal">© 2024 All rights reserved - Coffee Shop</p>
         </section>

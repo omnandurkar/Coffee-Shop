@@ -27,7 +27,7 @@ export default function HomeComp2() {
                     </div>
 
                     <div className="col-lg-4 text-center">
-                        <img src={Image2} className="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                        <img src={Image2} className="d-block mx-auto img-fluid float" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
 
                     <div className="col-lg-4 text-stat list2" >
