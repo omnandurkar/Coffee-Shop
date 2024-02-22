@@ -10,10 +10,10 @@ function Home() {
   return (
     <>
 
-      <div className='bg  '>
+     
         <Navbar />
-      </div>
-      <HomeComp1/>
+      
+      {/* <HomeComp1/> */}
 
       <HomeComp2/>
       
