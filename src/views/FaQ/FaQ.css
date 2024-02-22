@@ -1,18 +1,19 @@
 .header-container{
     background-color: antiquewhite;
+    padding: 20px;
 }
 
 .heading{
     font-size: 50px;
     font-weight: bold;
     width: 300px;
-    margin-top: 60px;
     padding-left: 100px;
 }
 
 .heading-title{
     font-size: 30px;
-    margin-top: 70px;
+    margin-top: 60px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .faq-img{
@@ -23,9 +24,33 @@
 .queans-container{
     width: 120vh;
     margin: 40px auto;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.13),
     -20px -20px 30px rgba(0, 0, 0, 0.055);
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-item{
+    border: 2px solid brown;
+    background-color: antiquewhite;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 0;
+    box-shadow: 0px 4px 6px;
+}
+
+h5{
+    text-shadow: 2px 2px 5px brown;
+}
+
+span{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px brown;
 }
 
 
