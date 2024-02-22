@@ -1,12 +1,33 @@
 [
     {
-        "img":"https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
-        "title":"latte",
-        "content":"A latte, also known as a caffè latte, is a milky coffee originating in Italy, served with a silky layer of foam. They're similar to cappuccinos, but there are some obvious differences - mostly in the ratios of milk, water, and coffee, coming together to create a perfectly balanced milky coffee that possesses an aesthetically pleasing look and an irresistible texture."
+        "img":"https://th.bing.com/th/id/OIG2.Zr_vu88MBhLW8TthqIEm?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "title":"Espresso",
+        "content":"A concentrated coffee brewed by forcing hot water through finely-ground coffee beans. It has a strong, bold flavor with a thick crema layer on top. Often served in small shots, it forms the base for many other coffee drinks like lattes and cappuccinos."
     },
     {
-        "img":"https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcHVjY2lub3xlbnwwfHwwfHx8MA%3D%3D",
+        "img":"https://th.bing.com/th/id/OIG3.q52ygeTzbTjIaXZTII.2?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
         "title":"cappuccino",
-        "content":"A cappuccino is the perfect balance of espresso, steamed milk and foam. This coffee is all about the structure and the even splitting of all elements into equal thirds. An expertly made cappuccino should be rich, but not acidic and have a mildly sweet flavouring from the milk. And, because the milk is not actually mixed in it gives the espresso a stronger flavour."
+        "content":" A classic Italian coffee drink consisting of equal parts espresso, steamed milk, and milk foam. It has a rich and creamy texture with a slightly bitter taste from the espresso. Traditionally served in a small cup, it's often topped with a sprinkle of cocoa powder or cinnamon"
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIG3.cIG7.eIUZGvDqnpq.uqK?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "title":"Latte",
+        "content":"Made with a shot of espresso and steamed milk, topped with a small amount of milk foam. It has a smooth and creamy texture with a milder coffee flavor compared to a cappuccino. Lattes can be customized with flavored syrups such as vanilla or caramel."
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIG1.G6eTWew2LWrK8CYochZ1?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "title":"Americano",
+        "content":"A simple yet bold coffee made by diluting a shot of espresso with hot water. It has a similar strength to drip coffee but with a richer flavor profile due to the espresso base. Often enjoyed black but can be customized with milk or sweeteners."
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIG4.NMPXk2JPlFQhlTpY9FeO?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "title":"Macchiato",
+        "content":"An espresso 'stained' with a small amount of steamed milk or milk foam. It offers a balance between the intensity of espresso and the creaminess of milk, with the milk softening the espresso's bitterness. Available in both traditional and flavored variations."
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIG2.1VV1CBxu7NszBhVE_my6?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn",
+        "title":"Flat White",
+        "content":" Originating from Australia and New Zealand, it's made with a double shot of espresso and velvety steamed milk. It has a smooth texture with a strong coffee flavor and a slightly sweet taste from the milk. The milk is microfoamed to create a silky mouthfeel."
     }
-]
+
+]   
