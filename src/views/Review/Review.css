@@ -1,0 +1,27 @@
+.body{
+    background-color:bisque;
+    display: flex;
+}
+
+.heading{
+    margin-left:250px;
+    margin-top: 140px;
+    font-size:45px;
+}
+.head-img{
+    height:300px;
+    width:400px;
+    padding:20px;
+    margin-left:800px;
+    margin-top:-160px;
+    border-radius:35px;
+}
+.heading-1{
+    text-align: center;
+    margin-top:40px;
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
