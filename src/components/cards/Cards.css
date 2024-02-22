@@ -1,3 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .bg-cream{
-    background-color: #efe8d9;
+    background-color:rgb(156, 118, 93);
+}
+.fs-7{
+    font-size: 13px;
+    font-weight: 400;
+}
+.w-60{
+    width: 300px;
+}
+.w-200{
+    
+    height: 350px;
+}
+.m-30{
+    margin: 0 50px;
+}
+.img{
+    width: auto;
+    height: 250px;
+    
+    
+    
+}
+.img-div{
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    /* padding: 5px; */
+    overflow: hidden;
+}
+.fs-24{
+    font-size: 50px;
+    font-weight: 700;
 }

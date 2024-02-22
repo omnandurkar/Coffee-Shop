@@ -1,18 +1,20 @@
 import React from "react";
-import '../cards/Cards.css'
+import "../cards/Cards.css";
 
 function Cards({ title, content, img }) {
   return (
     <>
-      <div className="card shadow-sm  w-50 h-50 m-2 p-1  ">
-        <div className="p-1 rounded bg-cream  ">
+      <div className=" rounded-1  shadow-sm m-1 p-1 w-100  bg-light  ">
+        <div className="img-div ">
           <img
-            src={img} className="w-100 ` rounded "
+            src={img}
+            className="  rounded m-1 w-100 w-200   "
           ></img>
         </div>
-        <div className="card-body">
-          <p className="card-text-bg-danger">{title}</p>
-          <p className="card-text ">{content}</p>
+
+        <div className=" p-2">
+          <p className=" fw-bold  fs-4">{title}</p>
+          <p className=" p-2 fs-7">{content.substring(0 ,200  )}{content.length > 200? '...' :''}</p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
               <button type="button" class="btn btn-sm btn-outline-secondary">
