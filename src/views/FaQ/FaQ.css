@@ -1,5 +1,4 @@
 .header-container{
-    margin-top: 10px;
     background-color: antiquewhite;
 }
 
@@ -7,7 +6,6 @@
     font-size: 50px;
     font-weight: bold;
     width: 300px;
-    text-align: center;
     margin-top: 60px;
     padding-left: 100px;
 }
@@ -19,8 +17,17 @@
 
 .faq-img{
     width: 500px;
-    border-radius: 50px 0;
+    border-radius:0 50px;
 }
+
+.queans-container{
+    width: 120vh;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.13),
+    -20px -20px 30px rgba(0, 0, 0, 0.055);
+}
+
 
 @media only screen and (max-width: 600px){
     .header-container{
@@ -40,5 +47,8 @@
         width: 250px;
         margin: 0 auto;
         padding-top: 20px;
+    }
+    .queans-container{
+        width: 40vh;
     }
 }
