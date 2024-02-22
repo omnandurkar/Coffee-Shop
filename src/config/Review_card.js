@@ -39,13 +39,13 @@ const Review_card=[
 },
 {
     content:" This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection. . It is simply one of the best and my favorites coffee shop in town. ",
-    img:'https://th.bing.com/th/id/OIP.KC7BQ-odnvK6ZUM_lLzyRgHaE6?rs=1&pid=ImgDetMain',
-    title:'Sadanand Gurude'
+    img:'https://th.bing.com/th/id/OIP.ol3axgE6DaBtFk6-q_rw7AHaHa?w=600&h=600&rs=1&pid=ImgDetMain',
+    title:'Shivam More'
 },
 {
     content:" This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection. . It is simply one of the best and my favorites coffee shop in town. ",
-    img:'https://th.bing.com/th/id/OIP.KC7BQ-odnvK6ZUM_lLzyRgHaE6?rs=1&pid=ImgDetMain',
-    title:'Sadanand Gurude'
+    img:'https://th.bing.com/th/id/OIP.STLdlBvb0Ef4oS5PNjroXgHaL2?rs=1&pid=ImgDetMain',
+    title:'Abhishek Deshmukh'
 },]
 
 
