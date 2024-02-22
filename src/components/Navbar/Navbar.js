@@ -49,7 +49,7 @@ function Navbar() {
                   <Link className="dropdown-item" to="/subscriptions">Subscription</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">Something else here</Link>
+                  <Link className="dropdown-item" to="/review">Review</Link>
                 </li>
               </ul>
             </li>
