@@ -1,0 +1,27 @@
+.body{
+    background-color:#fff;
+}
+
+.heading{
+    margin-left:50px;
+    font-size:55px;
+    margin-top:60px;
+    font-family: Oswald, sans-serif;
+}
+.head-img{
+    margin-left:650px;
+    height:400px;
+    margin-top:-270px;
+    border-radius:20px;
+}
+.content-1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+.heading-1{
+    text-align: center;
+    margin-top:50px;
+    font-family: Oswald, sans-serif;
+}

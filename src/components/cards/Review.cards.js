@@ -5,12 +5,13 @@ import '../cards/Review_cards.css'
 function Cards({ title, content, img }) {
   return (
     <div className="card-body">
-      <div className="card">
+      <div className="card ">
         
         
           <p className="card-text ">
             "{content}"</p>
-          <div className="p-1 rounded bg-cream  ">
+            <br/>
+          <div className="p-1 rounded   ">
           <img
             src={img} className="profile-image"
           ></img>
