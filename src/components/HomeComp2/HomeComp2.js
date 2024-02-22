@@ -4,7 +4,7 @@ import './HomeComp2.css'
 
 export default function HomeComp2() {
     return (
-        <div className="container col-xxl-8 px-4 py-5">
+        <div className="container col-xxl-8 px-4 py-5 mt-md-5  mt-sm-5 ">
             <div className="row justify-content-center align-items-center g-5 py-5">
 
                 <div className="col-lg-4 text-end  list1" >
