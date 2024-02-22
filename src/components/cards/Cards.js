@@ -4,7 +4,7 @@ import "../cards/Cards.css";
 function Cards({ title, content, img }) {
   return (
     <>
-      <div className=" rounded-1  shadow-sm m-1 p-1 w-100  bg-light  ">
+      <div className=" rounded-1  shadow-lg m-1 p-1 w-100  bg-light hover ">
         <div className="img-div ">
           <img
             src={img}
@@ -21,8 +21,7 @@ function Cards({ title, content, img }) {
                 view more
               </button>
             </div>
-            {/* <small class="text-body-secondary">9 mins</small> */}
-          </div>
+         </div>
         </div>
       </div>
     </>
