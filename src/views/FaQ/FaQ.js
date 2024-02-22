@@ -9,9 +9,9 @@ function FaQ() {
     <>
       <Navbar />
       <div>
-        <div className='header-container d-flex justify-content-evenly mt-3'>
+        <div className='header-container d-flex justify-content-evenly'>
           <div>
-            <h1 className='heading text-center'>Frequently Asked Questions</h1>
+            <h1 className='heading text-center mt-5'>Frequently Asked Questions</h1>
             <h6 className='heading-title'>Need something else? Email <br /> support@coffeeshop.com anytime.</h6>
           </div>
           <img src={faqImage} alt='' className='faq-img' />
@@ -22,7 +22,7 @@ function FaQ() {
           <div className="accordion accordion-flush queans-container" id="accordionFlushExample">
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   1. What are your business hours?
                 </button>
               </h2>
@@ -34,7 +34,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                   2. Where is your coffee grown? How are your coffees sourced?
                 </button>
               </h2>
@@ -46,7 +46,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                   3. What is the best case practice to store my coffee beans?
                 </button>
               </h2>
@@ -58,7 +58,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                   4. How much time will it take for us to deliver your coffee?
                 </button>
               </h2>
@@ -70,7 +70,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                   5. Where can I write a review for you?
                 </button>
               </h2>
@@ -82,7 +82,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                   6. What kind of payments do we accept?
                 </button>
               </h2>
@@ -94,7 +94,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
                   7. Why is your coffee so sweet?
                 </button>
               </h2>
@@ -106,7 +106,7 @@ function FaQ() {
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
-                <button className="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
                   8. How is your coffee a more natural fuel source?
                 </button>
               </h2>
@@ -116,6 +116,28 @@ function FaQ() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className='d-flex justify-content-evenly flex-wrap'>
+          <div className='about-item my-3 mx-2'>
+            <span>1000+</span>
+            <h5>Orders</h5>
+          </div>
+
+          <div className='about-item my-3 mx-2'>
+            <span>30+</span>
+            <h5>Cities</h5>
+          </div>
+
+          <div className='about-item my-3 mx-2'>
+            <span>10</span>
+            <h5>Years</h5>
+          </div>
+
+          <div className='about-item my-3 mx-2'>
+            <span>20+</span>
+            <h5>Offices</h5>
           </div>
         </div>
 
