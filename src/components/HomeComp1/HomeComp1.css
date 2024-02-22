@@ -1,6 +1,10 @@
 .home-comp-1{
     background-image: url(./Home1.jpg);
-    background-size: cover;
-    height: 80vh;
     
+    background-size: cover;
+    /* height: 80vh; */
+    
+}
+.text-section{
+    padding: 70px 0px ;
 }
