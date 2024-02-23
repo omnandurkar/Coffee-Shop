@@ -28,3 +28,26 @@ code {
 .f-small{
   font-size: small;
 }
+
+img{
+  transition: .3s ease-in-out;
+}
+img:hover{
+  transform: scale(.9);
+}
+
+.float{
+  animation: Float 2s ease-in-out infinite;
+  animation-delay: 1s, 3s;   
+}
+@keyframes Float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-24px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
