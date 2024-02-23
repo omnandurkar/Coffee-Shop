@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import config from "../../config/Detail.json";
+import img from "./Espresso_0.avif"
 
 function CoffeeDetail() {
 
     {
         config.map((coffeedata, index) => {
-        const {img} = coffeedata;
-    
-    })}
+            const { img } = coffeedata;
+
+        })
+    }
     return (
         <>
             <Navbar />
@@ -19,13 +21,13 @@ function CoffeeDetail() {
 
                 </div>
                 <div>
-                    
-                        return (
-                            <div className="col">
-                                 <img src={img} />
-                            </div>
-                        );
-                    
+
+
+                    <div className="col">
+                        <img src={img} />
+                    </div>
+
+
                 </div>
             </div>
         </>
