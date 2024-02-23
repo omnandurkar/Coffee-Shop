@@ -1,7 +1,8 @@
 .home-comp-1{
-    background-image: url(./Home1.jpg);
+    background-image: url(./Home1-bg.png);
+    background-color: rgb(240, 240, 234);
     
-    background-size: cover;
+    background-size: contain;
     /* height: 80vh; */
     
 }

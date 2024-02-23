@@ -14,4 +14,40 @@ code {
 
 /* oswald-font.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+.g-font-b{
+  font-family: Oswald, sans-serif;
+}
+
+.g-font-s{
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+.f-small{
+  font-size: small;
+}
+
+img{
+  transition: .3s ease-in-out;
+}
+img:hover{
+  transform: scale(.9);
+}
+
+.float{
+  animation: Float 2s ease-in-out infinite;
+  animation-delay: 1s, 3s;   
+}
+@keyframes Float {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-24px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
