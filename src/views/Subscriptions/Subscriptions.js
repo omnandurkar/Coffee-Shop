@@ -1,10 +1,15 @@
 import React from 'react'
+import "./Subscriptions.css"
+import Navbar from '../../components/Navbar/Navbar'
 
 function Subscriptions() {
   return (
-    <div>
-      Subscriptions
-    </div>
+    <>
+      <Navbar />
+      <div>
+        Subscriptions
+      </div>
+    </>
   )
 }
 
