@@ -1,12 +1,18 @@
-.sub-header-container{
+.sub-header-container {
     margin-top: 80px;
-    
 }
 
-.sub-img1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.sub-heading {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.sub-img1 {
+    margin: 20px auto;
     border-radius: 50px;
     box-shadow: 0 6px 10px;
+}
+
+.sub-description {
+    margin: 30px 120px;
 }
