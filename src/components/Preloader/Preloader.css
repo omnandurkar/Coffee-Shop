@@ -7,11 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: bisque;
+    color: black;
     opacity: 1;
     z-index: 999;
-    transition: opacity 3s ease-out;
+    transition: opacity 2s ease-out;
   }
   
   .preloader-container.hide {

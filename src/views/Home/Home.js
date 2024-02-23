@@ -30,7 +30,7 @@ function Home() {
 
       <HomeComp4/>
 
-      {/* <VideoComp/> */}
+      <VideoComp/>
 
       <HomeComp5/>
 

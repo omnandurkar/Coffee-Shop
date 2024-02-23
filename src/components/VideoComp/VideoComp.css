@@ -1,0 +1,14 @@
+.full-screen {
+    width: 100%;
+    height: auto; /* Ensures aspect ratio is maintained */
+}
+
+.videoo {
+    /* If you want to center the video vertically, you can use flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 60vh;
+    overflow-y: hidden;
+}
