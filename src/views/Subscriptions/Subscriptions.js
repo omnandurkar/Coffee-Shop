@@ -3,6 +3,7 @@ import "./Subscriptions.css"
 import Navbar from '../../components/Navbar/Navbar'
 import Subimg1 from "./subscribe-and-save.webp"
 import Subimg2 from "./subscribe-img.jpg"
+import Footer from "../../components/Footer/Footer"
 
 function Subscriptions() {
   return (
@@ -23,7 +24,11 @@ function Subscriptions() {
           <img src={Subimg1} alt='' className='sub-img1 d-block'/>
           <p className='sub-description text-center fs-5'>The other subscription option is called Subscribe By Usage, which allows customers to sign up for a Bottomless subscription to our coffee. This option allows for 20% off your first order, and 10% off all future recurring orders. You'll receive a smart WIFI scale to store your coffee on, and Bottomless will automatically renew your subscription when you're running low.</p>
         </div>
+
+        <h6 className='sub-email text-center fs-5'>For Subscriptions Email <br/> support@coffeeshop.com anytime.</h6>
+
       </div>
+      <Footer />
     </>
   )
 }

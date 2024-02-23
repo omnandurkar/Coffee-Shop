@@ -16,3 +16,9 @@
 .sub-description {
     margin: 30px 120px;
 }
+
+.sub-email{
+    background-color: bisque;
+    font-weight: bold;
+    padding: 20px;
+}
