@@ -5,18 +5,20 @@ import { Link } from 'react-router-dom';
 
 export default function HomeComp4() {
     return (
-        <div className="mx-auto col-xxl-12 container px-2  py-5">
+
+        <div className='bg'>
+        <div className="mx-auto col-xxl-12 container px-2  py-5 g-font-b ">
 
             <div className="row justify-content-center align-items-center g-5 py-5">
                 <div className="col-4 col-lg-2">
                     <h4 className=" fw-bold text-body-emphasis ">More Than</h4>
                     <h1 className="g-font-b num opacity-75 mb-3 ">6400</h1>
-                    <h4 className=" fw-bold text-body-emphasis lh-1 mb-3">MCustomers Trust Us</h4>
+                    <h4 className=" fw-bold text-body-emphasis lh-1 mb-3">Customers Trust Us</h4>
                     
                 </div>
 
-                <div className="col-6 col-lg-3">
-                    <img src={Image1} className="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                <div className="col-6 col-lg-3 ">
+                    <img src={Image1} className="d-block mx-auto img-fluid rounded-circle rotate-h" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                 </div>
                 <div className="col-8 col-lg-4">
                     <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 g-font-b">Become our dealer</h1>
@@ -29,6 +31,8 @@ export default function HomeComp4() {
                     </div>
                 </div>
             </div>
+        </div>
+
         </div>
     );
 }

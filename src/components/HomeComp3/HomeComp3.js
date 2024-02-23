@@ -3,20 +3,21 @@ import Image1 from './about-icon-1.png';
 import Image2 from './about-icon-2.png';
 import Image3 from './about-icon-3.png';
 import Image4 from './about-icon-4.png';
+import { Link } from 'react-router-dom';
 import './HomeComp3.css'
 
 export default function HomeComp3() {
     return (
         <div className='home3-bg'>
 
-            <div className="container px-4 py-5 ">
-                <h3 className="pb-2 border-bottom g-font-b">Who We Are</h3>
+            <div className="container px-4 py-5 g-font-b ">
+                <h3 className="pb-2 border-bottom ">Who We Are</h3>
 
                 <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
                     <div className="col d-flex flex-column align-items-start gap-2">
-                        <h1 className="fw-bold g-font-b ">About Coffee Shop</h1>
+                        <h1 className="fw-bold ">About Coffee Shop</h1>
                         <p className="text-body-secondary">Step into our coffee haven where every sip is a journey of flavor and every moment is cherished. At Coffee Shop, we're dedicated to crafting the perfect brew and creating lasting memories."</p>
-                        <a href="#" className="btn btn-outline-dark btn-lg">Primary button</a>
+                        <Link to="/contact" className="btn btn-outline-dark btn-lg ">Know More</Link>
                     </div>
 
                     <div className="col">
