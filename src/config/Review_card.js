@@ -23,7 +23,7 @@ const Review_card=[
     title:'Sunny Kumar'
 },
 {
-    content:"This place is very different and well organized according to other places. The food is amazing, music of your choice. The owner is very sweet… Ever the best café. The cost is fair for everything and the atmosphere is good.",
+    content:"This place is very different and well organized according to other places. The food is amazing, music of your choice. The owner is very sweet… Ever the best café.",
     img:'https://wallpapercave.com/wp/wp6127535.jpg',
     title:'Dhumal Vaishnavi'
 },
@@ -45,7 +45,7 @@ const Review_card=[
 {
     content:" This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection. . It is simply one of the best and my favorites coffee shop in town. ",
     img:'https://th.bing.com/th/id/OIP.STLdlBvb0Ef4oS5PNjroXgHaL2?rs=1&pid=ImgDetMain',
-    title:'Abhishek Pawar'
+    title:'Abhishek Deshmukh'
 },]
 
 
