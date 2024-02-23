@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import './Preloader.css'; // Import CSS for styling
+import './Preloader.css';
+import Image1 from './coffee-cup.gif'
 
 export default function Preloader() {
-    const [show, setShow] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            setShow(false);
-        }, 1000);
-
-        // Hide the loader immediately when the component is mounted after 2 seconds
-        window.addEventListener('load', () => {
-            clearTimeout(timer);
-            setShow(false);
-        });
+            setIsLoading(false);
+        }, 2000);
 
         return () => clearTimeout(timer);
     }, []);
 
     return (
-        <div className={`preloader-container loading-text   ${show ? 'show' : 'hide'}`}>
-            <div class="spinner-border" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>
-
-        </div>
+        <>
+            {isLoading && (
+                <div className="preloader ">
+                    {/* <div className="spinner-border text-light" role="status">
+                        <span className="visually-hidden">Loading...</span>
+                    </div> */}
+                    <img src={Image1} height="100px" className='' />
+                    <h1 className='g-font-b text-black ms-2 text-opacity-75 fs-3 mt-3'> Loading Your Coffee...</h1>
+                </div>
+            )}
+        </>
     );
 }
