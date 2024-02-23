@@ -1,0 +1,12 @@
+.sub-header-container{
+    margin-top: 80px;
+    
+}
+
+.sub-img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 6px 10px;
+}
