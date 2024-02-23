@@ -8,6 +8,8 @@ import HomeComp3 from '../../components/HomeComp3/HomeComp3';
 import HomeComp4 from '../../components/HomeComp4/HomeComp4';
 import HomeComp5 from '../../components/HomeComp5/HomeComp5';
 import HomeComp6 from '../../components/HomeComp6/HomeComp6';
+import VideoComp from '../../components/VideoComp/VideoComp';
+import Preloader from '../../components/Preloader/Preloader';
 
 
 function Home() {
@@ -15,10 +17,11 @@ function Home() {
     <>
 
      
-        <Navbar />
+      <Navbar />
       
       <HomeComp1/>
 
+    <Preloader/>
       <HomeComp6/>
       
       <HomeComp2/>
@@ -26,6 +29,8 @@ function Home() {
       <HomeComp3/>
 
       <HomeComp4/>
+
+      {/* <VideoComp/> */}
 
       <HomeComp5/>
 
