@@ -9,7 +9,7 @@ export default function HomeComp1() {
   return (
     <div className=''>
 
-      <div className="containerrrr home-comp-1">
+      <div className="containerrrr home-comp-1 mt-5">
 
 
         <div className="  border-top g-font-b ">
