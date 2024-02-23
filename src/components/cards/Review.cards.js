@@ -4,7 +4,7 @@ import '../cards/Review_cards.css'
 
 function Cards({ title, content, img }) {
   return (
-    <div className="card-body">
+    <div className="card-body m-2">
       <div className="card-3">
         
         
