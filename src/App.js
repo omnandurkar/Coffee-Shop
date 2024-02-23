@@ -8,6 +8,7 @@ import ContactUs from "./views/ContactUs/ContactUs";
 import FaQ from "./views/FaQ/FaQ";
 import Review from "./views/Review/Review";
 import Subscriptions from "./views/Subscriptions/Subscriptions";
+import Blog from "./views/Blog/Blog";
 
 function App() {
 
@@ -51,6 +52,11 @@ function App() {
     {
       path: "/subscriptions",
       element: <Subscriptions/>
+    },
+
+    {
+      path: "/blog",
+      element: <Blog/>
     }
 
 
