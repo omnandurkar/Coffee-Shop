@@ -1,12 +1,16 @@
 import React from "react";
 import img1 from '../Hero-section/img1.png'
+import '../Hero-section/Home1-bg.png'
 import '../HomeComp1/HomeComp1.css'
 
 function Herosec() {
   return (
     <>
-      <div className="home-comp-1">
-        <div className="container col-xl-8 px-0 py-5 h-75 flex justify-content-center   ">
+
+      <div className=" home-comp-1 w-100 bg-white ">
+        <div className="container col-xl-8 px-0 py-5 h-75 flex justify-content-center  ">
+
+
           <div className="row flex-lg-row align-items-center g-5 py-5 ">
             <div className="col-10 col-sm-8 col-lg-6 py-5">
               <img
