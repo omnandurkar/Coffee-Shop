@@ -9,7 +9,7 @@ function FaQ() {
     <>
       <Navbar />
       <div>
-        <div className='header-container d-flex justify-content-evenly'>
+        <div className='header-container d-flex justify-content-evenly g-font-b'>
           <div>
             <h1 className='heading text-center mt-5'>Frequently Asked Questions</h1>
             <h6 className='heading-title'>Need something else? Email <br /> support@coffeeshop.com anytime.</h6>
@@ -119,25 +119,25 @@ function FaQ() {
           </div>
         </div>
 
-        <div className='d-flex justify-content-evenly flex-wrap'>
+        <div className='d-flex justify-content-evenly flex-wrap g-font-b'>
           <div className='about-item my-3 mx-2'>
-            <span>1000+</span>
-            <h5>Orders</h5>
+            <h2>1000+</h2>
+            <h6>Orders</h6>
           </div>
 
           <div className='about-item my-3 mx-2'>
-            <span>30+</span>
-            <h5>Cities</h5>
+            <h2>30+</h2>
+            <h6>Cities</h6>
           </div>
 
           <div className='about-item my-3 mx-2'>
-            <span>10</span>
-            <h5>Years</h5>
+            <h2>10</h2>
+            <h6>Years</h6>
           </div>
 
           <div className='about-item my-3 mx-2'>
-            <span>20+</span>
-            <h5>Offices</h5>
+            <h2>20+</h2>
+            <h6>Offices</h6>
           </div>
         </div>
 

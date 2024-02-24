@@ -4,14 +4,21 @@ import Navbar from '../../components/Navbar/Navbar'
 import Subimg1 from "./subscribe-and-save.webp"
 import Subimg2 from "./subscribe-img.jpg"
 import Footer from "../../components/Footer/Footer"
+import HomeComp6 from '../../components/HomeComp6/HomeComp6'
+import VideoComp from '../../components/VideoComp/VideoComp'
 
 function Subscriptions() {
   return (
     <>
       <Navbar />
-      <div className='sub-header-container'>
+      <div className='sub-header-container g-font-b'>
+          <h1 className='sub-heading  m-3 d-block text-center'>ABOUT SUBSCRIPTIONS</h1>
+
+         
+
         <div>
-          <span className='sub-heading m-3 d-block text-center'>ABOUT SUBSCRIPTIONS</span>
+
+
           <img src={Subimg2} alt='' className='sub-img1 d-block'/>
         </div>
         
@@ -21,13 +28,15 @@ function Subscriptions() {
         </div>
 
         <div>
-          <img src={Subimg1} alt='' className='sub-img1 d-block'/>
+          {/* <img src={Subimg1} alt='' className='sub-img1 d-block'/> */}
+
+          <VideoComp/>
           <p className='sub-description text-center fs-5'>The other subscription option is called Subscribe By Usage, which allows customers to sign up for a Bottomless subscription to our coffee. This option allows for 20% off your first order, and 10% off all future recurring orders. You'll receive a smart WIFI scale to store your coffee on, and Bottomless will automatically renew your subscription when you're running low.</p>
         </div>
 
       </div>
 
-      <span className='sub-heading m-5 d-block text-center'>SUBSCRIPTIONS</span>
+      {/* <span className='sub-heading m-5 d-block text-center'>SUBSCRIPTIONS</span>
 
 
       <div className="row row-cols-1 row-cols-md-3 mb-3 d-flex justify-content-around text-center">
@@ -65,7 +74,10 @@ function Subscriptions() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+          <HomeComp6/>
+
       <Footer />
     </>
   )
