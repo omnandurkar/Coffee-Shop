@@ -3,6 +3,7 @@ import "./FaQ.css"
 import Navbar from "../../components/Navbar/Navbar"
 import Footer from "../../components/Footer/Footer"
 import faqImage from "./faq.webp"
+import Herosec from '../../components/HeroSection/Herosec'
 
 function FaQ() {
   return (
@@ -142,6 +143,8 @@ function FaQ() {
         </div>
 
       </div>
+
+      <Herosec/>
 
       <Footer />
     </>

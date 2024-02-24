@@ -6,6 +6,9 @@ import youtube from "./youtube.png";
 import Navbar from '../../components/Navbar/Navbar';
 import "./Contact.css";
 import Footer from '../../components/Footer/Footer';
+import HomeComp3 from '../../components/HomeComp3/HomeComp3';
+import HomeComp6 from '../../components/HomeComp6/HomeComp6';
+import HomeComp5 from '../../components/HomeComp5/HomeComp5';
 
 function ContactUs() {
   return (
@@ -62,6 +65,10 @@ function ContactUs() {
         <p className=''>"At Coffee Shop, we're honored to be recognized as the home of the best coffee of 2023. This prestigious award is a testament to our dedication to crafting exceptional coffee experiences for our customers."From our carefully sourced beans to our expertly trained baristas, every cup of coffee at Coffee Shop is crafted with passion and precision. Winning the award for the best coffee of 2023 reaffirms our commitment to excellence in every sip.Being named the best coffee of 2023 is more than just an accolade for us at Coffee Shop; it's a validation of our relentless pursuit of quality and flavor. We take pride in serving not just a beverage, but an experience that delights the senses and warms the soul.
         </p>
       </div>
+
+      <HomeComp3/>
+
+      <HomeComp5/>
 
       <Footer />
     </div>
