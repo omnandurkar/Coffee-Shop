@@ -101,9 +101,11 @@ function CoffeeDetail() {
                     </div>
 
                 </div>
-                <Footer />
+                
 
             </div>
+
+            <Footer />
 
         </>
     )
