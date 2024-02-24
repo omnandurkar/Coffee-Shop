@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar'
 import config from "../../config/coffee.json";
 import "./CoffeeDetail.css"
+import upward from "./upward-arrow.png"
+import downward from "./down-arrow.png"
 
 
 function CoffeeDetail() {
@@ -53,18 +55,19 @@ function CoffeeDetail() {
                         </b>
 
                         <div className='d-flex flex-row  '>
-                            <div className='d-flex flex-row justify-content-around counter'>
-                                <p onClick={decreaseQuantity} className='minus' >
-                                    
-                                </p>
+                            <div className='d-flex flex-row justify-content-evenly  counter'>
+
 
                                 <b id='quantity' className='quantity'>
                                     1
                                 </b>
 
-                                <p onClick={increaseQuantity} className='plus'>
-                                    
-                                </p>
+                                <div className='d-flex flex-column '>
+                                    <img src={upward} onClick={decreaseQuantity} className='minus' />
+
+                                    <img src={downward} onClick={increaseQuantity} className='minus' />
+                                </div>
+
 
                             </div>
 

@@ -5,17 +5,18 @@
 
 .counter{
 
-    
-}
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 37px;
+    margin-right: 10px;
+    padding: 2px;
 
-.minus{
-    margin: 5px;
 }
-
 .quantity{
-    margin: 7px;
+    margin: auto;
 }
-
-.plus{
-    margin: 5px;
+.minus{
+    height: 16px;
+    margin-right: 6px;
 }
