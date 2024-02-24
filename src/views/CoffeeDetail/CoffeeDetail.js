@@ -41,6 +41,7 @@ function CoffeeDetail() {
             <Navbar />
 
             <div className='sub-header-container d-flex flex-row justify-content-center mx-auto !important '>
+            <div className='sub-header-container d-flex flex-row justify-align-content-center '>
 
                 <div className='me-4'>
                     <img src={coffeedata.img} className='coffee-img img-fluid' />
