@@ -1,0 +1,9 @@
+.num{
+    font-size: 100px;
+}
+
+.bg{
+    background-image: url(../AllCoffee/1.jpg);
+     background-size: cover;
+    
+}

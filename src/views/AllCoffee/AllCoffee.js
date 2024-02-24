@@ -4,6 +4,7 @@ import config from "../../config/coffee.json";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Herosec from "../../components/Hero-section/Herosec";
+import '../AllCoffee/Allcoffee.css'
 
 function AllCoffee() {
   return (
@@ -25,7 +26,7 @@ function AllCoffee() {
 
       {/*  */}
 
-      <div class="px-4 py-5 my-5 text-center">
+      <div class="px-4 py-5 my-5 text-center bg">
         {/* <img
           class="d-block mx-auto mb-4"
           src="../assets/brand/bootstrap-logo.svg"
@@ -36,18 +37,15 @@ function AllCoffee() {
         <h1 class="display-5 fw-bolder text-body-emphasis text-capitalize ">Coffee shop</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world's most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
+          In our city oasis, coffee lovers find warmth, community, and exceptional brews. With inviting aromas and cozy surroundings, every visit is a delightful escape into comfort and connection.
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+            {/* <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
               Contact
             </button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
               Secondary
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
