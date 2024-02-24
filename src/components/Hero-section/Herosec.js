@@ -7,7 +7,7 @@ function Herosec() {
   return (
     <>
 
-      <div className=" home-comp-1 w-100 bg-white ">
+      <div className=" home-comp-1 w-100 bg-white g-font-b">
         <div className="container col-xl-8 px-0 py-5 h-75 flex justify-content-center  ">
 
 
@@ -32,7 +32,7 @@ function Herosec() {
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <button
                   type="button"
-                  className="btn btn-dark btn-lg px-4 me-md-2 text-capitalize "
+                  className="btn btn-outline-dark btn-lg px-4 me-md-2 text-capitalize "
                 >
                   Discover Our Brews
                 </button>
