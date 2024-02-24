@@ -28,20 +28,22 @@ function ContactUs() {
 
         <div className='my-auto ps-3 '>
 
-          <div>
-            <p>
+          <div className='m-4 '>
+            <p className='g-font-b'>
               739, Lakshimi Hills, Kanyakumari Road, Manjuli Nagar, Chennai-373112.
             </p>
-            <p>
+            <p className='g-font-b'>
               Mo.No.:- 7796486645
             </p>
+
+            <img src={insta} className='media' />
+            <img src={youtube} className='media' />
+            <img src={twitter} className='media' />
 
           </div>
 
 
-          <img src={insta} className='media' />
-          <img src={youtube} className='media' />
-          <img src={twitter} className='media' />
+
         </div>
 
       </div>
@@ -54,7 +56,7 @@ function ContactUs() {
           Since its inception in 1989, Coffee Shop has been a cornerstone of our community, serving up exceptional coffee and fostering unforgettable moments for our loyal customers. Over the past three decades, we've grown from a modest local haunt to a beloved destination for coffee enthusiasts far and wide. Our commitment to quality, consistency, and warmth has remained steadfast throughout the years, as we continue to pour passion into every cup and create a welcoming space where friendships are forged, ideas are sparked, and memories are made. As we reflect on our journey, we're grateful for the support of our community and excited for the future ahead.
         </p>
       </div>
-      <div className='text-center mt-4 p-5'>
+      <div className='text-center'>
         <h1 className='g-font-b'>Won the best coffee award 2023</h1>
 
         <p className=''>"At Coffee Shop, we're honored to be recognized as the home of the best coffee of 2023. This prestigious award is a testament to our dedication to crafting exceptional coffee experiences for our customers."From our carefully sourced beans to our expertly trained baristas, every cup of coffee at Coffee Shop is crafted with passion and precision. Winning the award for the best coffee of 2023 reaffirms our commitment to excellence in every sip.Being named the best coffee of 2023 is more than just an accolade for us at Coffee Shop; it's a validation of our relentless pursuit of quality and flavor. We take pride in serving not just a beverage, but an experience that delights the senses and warms the soul.
