@@ -40,14 +40,21 @@ function CoffeeDetail() {
         <>
             <Navbar />
 
-            <div className='sub-header-container d-flex flex-row justify-content-center mx-auto !important g-font-b '>
-                <div className='sub-header-container d-flex flex-row justify-align-content-center '>
+           
 
-                    <div className='me-4'>
-                        <img src={coffeedata.img} className='coffee-img img-fluid' />
+
+            <div className="container col-xl-12 px-0 py-5 h-75 flex justify-content-center g-font-b  ">
+
+
+                <div className="row flex-lg-row align-items-center g-5 py-5 ">
+                    <div className="col-10 col-sm-8 col-lg-6 py-5">
+
+                        <div className='me-4'>
+                            <img src={coffeedata.img} className='coffee-img img-fluid' />
+                        </div>
                     </div>
 
-                    <div>
+                    <div className='col-lg-6 bg-white rounded px-5 py-5 '>
                         <div className="">
                             <div className='d-flex flex-column '>
                                 <h1 className=''>
@@ -57,7 +64,7 @@ function CoffeeDetail() {
                                     {coffeedata.price}
                                 </b>
 
-                                <p className='description w-25'>
+                                <p className='description  '>
                                     {coffeedata.description}
                                 </p>
                             </div>
@@ -88,9 +95,9 @@ function CoffeeDetail() {
 
                                 </div>
                             </div>
-                            <div className='d-flex'>
+                            <div className='d-flex my-3'>
                                 <b className='font-bold'>Category: </b>
-                                <p className='fs-6'> {coffeedata.category}</p>
+                                <p className='fs-6 text-capitalize '> {coffeedata.category}</p>
                             </div>
 
                             <div className='d-flex'>
@@ -100,9 +107,9 @@ function CoffeeDetail() {
                         </div>
                     </div>
 
-                </div>
-                
 
+
+                </div>
             </div>
 
             <Footer />

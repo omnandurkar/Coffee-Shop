@@ -24,3 +24,11 @@
     margin-right: 6px;
     cursor: pointer;
 }
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
