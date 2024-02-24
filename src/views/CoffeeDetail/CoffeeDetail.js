@@ -39,7 +39,7 @@ function CoffeeDetail() {
         <>
             <Navbar />
 
-            <div className='sub-header-container d-flex flex-row justify-content-center'>
+            <div className='sub-header-container d-flex flex-row justify-content-center mx-auto '>
 
                 <div className='me-4'>
                     <img src={coffeedata.img} className='coffee-img' />
@@ -47,12 +47,18 @@ function CoffeeDetail() {
 
                 <div>
                     <div className="">
-                        <h1 className=''>
-                            {coffeedata.title}
-                        </h1>
-                        <b className='text-danger '>
-                            {coffeedata.price}
-                        </b>
+                        <div className='d-flex flex-column '>
+                            <h1 className=''>
+                                {coffeedata.title}
+                            </h1>
+                            <b className='text-danger mb-3  '>
+                                {coffeedata.price}
+                            </b>
+
+                            <p className='description w-25'>
+                                {coffeedata.description}
+                            </p>
+                        </div>
 
                         <div className='d-flex flex-row  '>
                             <div className='d-flex flex-row justify-content-evenly  counter'>
@@ -63,7 +69,7 @@ function CoffeeDetail() {
                                 </b>
 
                                 <div className='d-flex flex-column '>
-                                    <img src={upward} onClick={decreaseQuantity} className='minus' />
+                                    <img src={upward} onClick={decreaseQuantity} className='minus'/>
 
                                     <img src={downward} onClick={increaseQuantity} className='minus' />
                                 </div>

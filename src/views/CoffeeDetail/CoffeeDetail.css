@@ -1,8 +1,9 @@
 .coffee-img{
     height: 500px;
-    width: 400px;
 }
-
+.description{
+    text-align: justify;
+}
 .counter{
 
     border: 1px solid black;
@@ -19,4 +20,5 @@
 .minus{
     height: 16px;
     margin-right: 6px;
+    cursor: pointer;
 }
