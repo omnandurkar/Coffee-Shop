@@ -8,7 +8,7 @@ import '../AllCoffee/Allcoffee.css'
 
 function AllCoffee() {
   return (
-    <div className="  ">
+    <div className="g-font-b  ">
       <Navbar />
       <Herosec />
 

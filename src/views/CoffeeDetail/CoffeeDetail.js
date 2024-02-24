@@ -40,69 +40,71 @@ function CoffeeDetail() {
         <>
             <Navbar />
 
-            <div className='sub-header-container d-flex flex-row justify-content-center mx-auto !important '>
-            <div className='sub-header-container d-flex flex-row justify-align-content-center '>
+            <div className='sub-header-container d-flex flex-row justify-content-center mx-auto !important g-font-b '>
+                <div className='sub-header-container d-flex flex-row justify-align-content-center '>
 
-                <div className='me-4'>
-                    <img src={coffeedata.img} className='coffee-img img-fluid' />
-                </div>
+                    <div className='me-4'>
+                        <img src={coffeedata.img} className='coffee-img img-fluid' />
+                    </div>
 
-                <div>
-                    <div className="">
-                        <div className='d-flex flex-column '>
-                            <h1 className=''>
-                                {coffeedata.title}
-                            </h1>
-                            <b className='text-danger mb-3  '>
-                                {coffeedata.price}
-                            </b>
-
-                            <p className='description w-25'>
-                                {coffeedata.description}
-                            </p>
-                        </div>
-
-                        <div className='d-flex flex-row  '>
-                            <div className='d-flex flex-row justify-content-evenly  counter'>
-
-
-                                <b id='quantity' className='quantity'>
-                                    1
+                    <div>
+                        <div className="">
+                            <div className='d-flex flex-column '>
+                                <h1 className=''>
+                                    {coffeedata.title}
+                                </h1>
+                                <b className='text-danger mb-3  '>
+                                    {coffeedata.price}
                                 </b>
 
-                                <div className='d-flex flex-column '>
-                                    <img src={upward} onClick={decreaseQuantity} className='minus'/>
+                                <p className='description w-25'>
+                                    {coffeedata.description}
+                                </p>
+                            </div>
 
-                                    <img src={downward} onClick={increaseQuantity} className='minus' />
+                            <div className='d-flex flex-row  '>
+                                <div className='d-flex flex-row justify-content-evenly  counter'>
+
+
+                                    <b id='quantity' className='quantity'>
+                                        1
+                                    </b>
+
+                                    <div className='d-flex flex-column '>
+                                        <img src={upward} onClick={decreaseQuantity} className='minus' />
+
+                                        <img src={downward} onClick={increaseQuantity} className='minus' />
+                                    </div>
+
+
                                 </div>
 
+                                <div>
+                                    <button
+                                        type="button"
+                                        className="btn btn-outline-dark    btn-md px-4 me-md-2 text-decoration-none "
+                                    >Buy now
+                                    </button>
 
+                                </div>
+                            </div>
+                            <div className='d-flex'>
+                                <b className='font-bold'>Category: </b>
+                                <p className='fs-6'> {coffeedata.category}</p>
                             </div>
 
-                            <div>
-                                <button
-                                    type="button"
-                                    className="btn btn-outline-dark    btn-md px-4 me-md-2 text-decoration-none "
-                                >Buy now
-                                </button>
-
+                            <div className='d-flex'>
+                                <b className='font-bold'>Product Id: </b>
+                                <p className='fs-6'> {coffeedata.pId}</p>
                             </div>
-                        </div>
-                        <div className='d-flex'>
-                            <b className='font-bold'>Category: </b>
-                            <p className='fs-6'> {coffeedata.category}</p>
-                        </div>
-
-                        <div className='d-flex'>
-                            <b className='font-bold'>Product Id: </b>
-                            <p className='fs-6'> {coffeedata.pId}</p>
                         </div>
                     </div>
+
                 </div>
+                <Footer />
 
             </div>
 
-            <Footer/>
         </>
     )
 
