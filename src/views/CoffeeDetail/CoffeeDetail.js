@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar'
 import config from "../../config/coffee.json";
+import "./CoffeeDetail.css"
 
 
 function CoffeeDetail() {
@@ -39,7 +40,7 @@ function CoffeeDetail() {
             <div className='sub-header-container d-flex flex-row justify-content-center'>
 
                 <div className='me-4'>
-                    <img src={coffeedata.img} className='h-auto' />
+                    <img src={coffeedata.img} className='coffee-img' />
                 </div>
 
                 <div>
@@ -52,17 +53,17 @@ function CoffeeDetail() {
                         </b>
 
                         <div className='d-flex flex-row  '>
-                            <div className='d-flex flex-row justify-content-around '>
-                                <p onClick={decreaseQuantity} >
-                                    -
+                            <div className='d-flex flex-row justify-content-around counter'>
+                                <p onClick={decreaseQuantity} className='minus' >
+                                    
                                 </p>
 
-                                <span id='quantity'>
+                                <b id='quantity' className='quantity'>
                                     1
-                                </span>
+                                </b>
 
-                                <p onClick={increaseQuantity}>
-                                    +
+                                <p onClick={increaseQuantity} className='plus'>
+                                    
                                 </p>
 
                             </div>

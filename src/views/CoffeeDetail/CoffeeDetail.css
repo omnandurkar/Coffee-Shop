@@ -1,0 +1,21 @@
+.coffee-img{
+    height: 500px;
+    width: 400px;
+}
+
+.counter{
+
+    
+}
+
+.minus{
+    margin: 5px;
+}
+
+.quantity{
+    margin: 7px;
+}
+
+.plus{
+    margin: 5px;
+}
