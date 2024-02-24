@@ -1,7 +1,6 @@
 //config
 const Review_card=[
-
-    {
+{
     content:"I really like the atmosphere, good coffee, and nice interior. The drinks and foods were all tasty and worthwhile. If you’re up for a fresh place with beautiful architecture then this is a must to visit.",
     img:'https://wallpapercave.com/wp/wp6311937.jpg ',
     title:'Mruganka Chiplunkar'
