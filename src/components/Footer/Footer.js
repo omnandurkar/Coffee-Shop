@@ -76,10 +76,10 @@ const Footer = () => {
 
         <section>
           <ul className="socials">
-            <li><a className="fa-brands fa-facebook"></a></li>
-            <li><a className="fa-brands fa-twitter"></a></li>
-            <li><a className="fa-brands fa-linkedin"></a></li>
-            <li><a className="fa-brands fa-instagram"></a></li>
+            <li><a className="fa-brands icons fa-facebook"></a></li>
+            <li><a className="fa-brands icons fa-twitter"></a></li>
+            <li><a className="fa-brands icons  fa-linkedin"></a></li>
+            <li><a className="fa-brands icons fa-instagram"></a></li>
           </ul>
           <ul className="links">
             <Link to="/">
