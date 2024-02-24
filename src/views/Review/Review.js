@@ -4,6 +4,8 @@ import Footer from '../../components/Footer/Footer'
 import Review_cards from '../../components/cards/Review.cards';
 import './Review.css';
 import { Review_card } from '../../config/Review_card';
+import HomeComp6 from '../../components/HomeComp6/HomeComp6';
+
 
 
 function Review() {
@@ -31,6 +33,7 @@ function Review() {
             })
           }
           </div>
+          <HomeComp6/>
     </div>
     <Footer/>
     </div>
