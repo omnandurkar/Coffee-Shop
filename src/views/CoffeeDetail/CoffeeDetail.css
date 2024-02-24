@@ -1,6 +1,13 @@
 .coffee-img{
     height: 500px;
 }
+
+.cont{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .description{
     text-align: justify;
 }
