@@ -18,12 +18,14 @@ function Cards({ id, title, content, img }) {
           </p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-              <button
-                type="button"
-                className="btn btn-outline-dark    btn-md px-4 me-md-2 text-decoration-none "
-              >
-                <Link className="text-decoration-none text-" to={`/menu/${id}`}>View More</Link>
-              </button>
+              <Link className="text-decoration-none text-" to={`/menu/${id}`}>
+                <button
+                  type="button"
+                  className="btn btn-outline-dark    btn-md px-4 me-md-2 text-decoration-none "
+                >
+                  View More
+                </button>
+              </Link>
             </div>
           </div>
         </div>

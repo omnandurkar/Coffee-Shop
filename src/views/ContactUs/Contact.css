@@ -1,0 +1,9 @@
+.shop{
+    height: 400px;
+    width: 400px;
+}
+.media{
+    height: 25px;
+    margin: 3px;
+    cursor: pointer;
+}

@@ -6,7 +6,8 @@
         "content":"A concentrated coffee brewed by forcing hot water through finely-ground coffee beans. It has a strong, bold flavor with a thick crema layer on top. Often served in small shots, it forms the base for many other coffee drinks like lattes and cappuccinos.",
         "price": "$49.00",
         "category": "coffee bean",
-        "pId": 2342
+        "pId": 2342,
+        "description":"Espresso is a concentrated shot of coffee made by forcing hot water through finely-ground coffee beans. It's characterized by its intense flavor, rich crema, and strong, bold aroma. Often served as a standalone shot or as the base for many other coffee beverages like lattes, cappuccinos, and macchiatos."
     },
     {
         "id":2,
@@ -15,7 +16,8 @@
         "content":" A classic Italian coffee drink consisting of equal parts espresso, steamed milk, and milk foam. It has a rich and creamy texture with a slightly bitter taste from the espresso. Traditionally served in a small cup, it's often topped with a sprinkle of cocoa powder or cinnamon",
         "price": "$49.00",
         "category": "coffee bean",
-        "pId": 2342
+        "pId": 2342,
+        "description":"Cappuccino is a classic Italian coffee beverage made with equal parts espresso, steamed milk, and milk foam. Its luxurious texture and balanced flavor profile combine the boldness of espresso with the creaminess of milk foam. Topped with a sprinkle of cocoa or cinnamon, it's a beloved choice for those seeking a harmonious blend of coffee and milk."
     },
     {
         "id":3,
@@ -24,7 +26,8 @@
         "content":"Made with a shot of espresso and steamed milk, topped with a small amount of milk foam. It has a smooth and creamy texture with a milder coffee flavor compared to a cappuccino. Lattes can be customized with flavored syrups such as vanilla or caramel.",
         "price": "$49.00",
         "category": "coffee bean",
-        "pId": 2342
+        "pId": 2342,
+        "description":"A latte is a creamy and comforting coffee beverage made with espresso and steamed milk, typically in a ratio of 1:3 or 1:4 (espresso to milk). It has a smooth texture and a milder coffee flavor compared to a cappuccino, thanks to the higher milk content. Lattes are often enjoyed with flavor syrups or topped with a light dusting of cocoa or cinnamon for added sweetness and aroma."
     },
     {
         "id":4,
@@ -33,7 +36,8 @@
         "content":"A simple yet bold coffee made by diluting a shot of espresso with hot water. It has a similar strength to drip coffee but with a richer flavor profile due to the espresso base. Often enjoyed black but can be customized with milk or sweeteners.",
         "price": "$49.00",
         "category": "coffee bean",
-        "pId": 2342
+        "pId": 2342,
+        "description":"An Americano is a simple yet satisfying coffee drink made by diluting a shot of espresso with hot water. This creates a lighter-bodied beverage compared to espresso, while still retaining its bold flavor profile. With its clean taste and customizable strength, the Americano is a popular choice for those who prefer a straightforward coffee experience without the intensity of espresso."
     },
     {
         "id":5,
@@ -42,7 +46,8 @@
         "content":"An espresso 'stained' with a small amount of steamed milk or milk foam. It offers a balance between the intensity of espresso and the creaminess of milk, with the milk softening the espresso's bitterness. Available in both traditional and flavored variations.",
         "price": "$49.00",
         "category": "coffee bean",
-        "pId": 2342
+        "pId": 2342,
+        "description":"A macchiato, traditionally an espresso macchiato, is a small yet bold coffee beverage consisting of a shot of espresso 'stained' or 'marked' with a dollop of milk foam or a small amount of steamed milk. It offers a potent espresso flavor with just a hint of creaminess, making it perfect for those who enjoy a strong coffee taste with a subtle touch of milk."
     },
     {
         "id":6,
@@ -51,7 +56,8 @@
         "content":" Originating from Australia and New Zealand, it's made with a double shot of espresso and velvety steamed milk. It has a smooth texture with a strong coffee flavor and a slightly sweet taste from the milk. The milk is microfoamed to create a silky mouthfeel.",
         "price": "$49.00",
         "category": "coffee bean",
-        "pId": 2342
+        "pId": 2342,
+        "description":"A flat white is a velvety and indulgent coffee drink originating from Australia or New Zealand, characterized by its smooth texture and balanced flavor. It's made with a double shot of espresso and microfoamed milk, creating a rich and creamy beverage with a velvety mouthfeel. Unlike a latte, a flat white has a higher coffee-to-milk ratio, allowing the bold espresso flavor to shine through while still providing a luxurious and smooth drinking experience."
     }
 
 ]   

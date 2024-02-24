@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar'
 import config from "../../config/coffee.json";
+import "./CoffeeDetail.css"
+import upward from "./upward-arrow.png"
+import downward from "./down-arrow.png"
+import Footer from '../../components/Footer/Footer';
 
 
 function CoffeeDetail() {
@@ -18,14 +22,14 @@ function CoffeeDetail() {
         })
     }, [id])
 
-    const increaseQuantity= () => {
+    const increaseQuantity = () => {
         const quantityElement = document.getElementById("quantity");
         let quantity = parseInt(quantityElement.innerText);
         quantityElement.innerText = ++quantity;
     }
 
 
-    const decreaseQuantity=() => {
+    const decreaseQuantity = () => {
         const quantityElement = document.getElementById("quantity");
         let quantity = parseInt(quantityElement.innerText);
         quantityElement.innerText = --quantity;
@@ -36,40 +40,50 @@ function CoffeeDetail() {
         <>
             <Navbar />
 
-            <div className='sub-header-container d-flex flex-row justify-content-center'>
+            <div className='sub-header-container d-flex flex-row justify-content-center mx-auto !important '>
+            <div className='sub-header-container d-flex flex-row justify-align-content-center '>
 
                 <div className='me-4'>
-                    <img src={coffeedata.img} className='h-auto' />
+                    <img src={coffeedata.img} className='coffee-img img-fluid' />
                 </div>
 
                 <div>
                     <div className="">
-                        <h1 className=''>
-                            {coffeedata.title}
-                        </h1>
-                        <b className='text-danger '>
-                            {coffeedata.price}
-                        </b>
+                        <div className='d-flex flex-column '>
+                            <h1 className=''>
+                                {coffeedata.title}
+                            </h1>
+                            <b className='text-danger mb-3  '>
+                                {coffeedata.price}
+                            </b>
+
+                            <p className='description w-25'>
+                                {coffeedata.description}
+                            </p>
+                        </div>
 
                         <div className='d-flex flex-row  '>
-                            <div className='d-flex flex-row justify-content-around '>
-                                <p onClick={decreaseQuantity} >
-                                    -
-                                </p>
+                            <div className='d-flex flex-row justify-content-evenly  counter'>
 
-                                <span id='quantity'>
+
+                                <b id='quantity' className='quantity'>
                                     1
-                                </span>
+                                </b>
 
-                                <p onClick={increaseQuantity}>
-                                    +
-                                </p>
+                                <div className='d-flex flex-column '>
+                                    <img src={upward} onClick={decreaseQuantity} className='minus'/>
+
+                                    <img src={downward} onClick={increaseQuantity} className='minus' />
+                                </div>
+
 
                             </div>
 
                             <div>
-                                <button type='button' className='btn bg-danger text-white  '>
-                                    Buy now
+                                <button
+                                    type="button"
+                                    className="btn btn-outline-dark    btn-md px-4 me-md-2 text-decoration-none "
+                                >Buy now
                                 </button>
 
                             </div>
@@ -87,6 +101,8 @@ function CoffeeDetail() {
                 </div>
 
             </div>
+
+            <Footer/>
         </>
     )
 
