@@ -25,9 +25,47 @@ function Subscriptions() {
           <p className='sub-description text-center fs-5'>The other subscription option is called Subscribe By Usage, which allows customers to sign up for a Bottomless subscription to our coffee. This option allows for 20% off your first order, and 10% off all future recurring orders. You'll receive a smart WIFI scale to store your coffee on, and Bottomless will automatically renew your subscription when you're running low.</p>
         </div>
 
-        <h6 className='sub-email text-center fs-5'>For Subscriptions Email <br/> support@coffeeshop.com anytime.</h6>
-
       </div>
+
+      <span className='sub-heading m-5 d-block text-center'>SUBSCRIPTIONS</span>
+
+
+      <div className="row row-cols-1 row-cols-md-3 mb-3 d-flex justify-content-around text-center">
+            <div className="col">
+              <div className="card mb-4 rounded-3 shadow-sm">
+                <div className="card-header py-3">
+                  <h4 className="my-0 fw-normal">Pro</h4>
+                </div>
+                <div className="card-body sub-body">
+                  <h1 className="card-title pricing-card-title">₹499<small class="text-body-secondary fw-light">/month</small></h1>
+                  <ul className="list-unstyled mt-3 mb-4 d-block">
+                    <li>Free Delivery</li>
+                    <li>Limited Orders</li>
+                    <li>Priority email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" className="btn btn-lg btn-primary">Get started</button>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card mb-4 rounded-3 shadow-sm border-primary">
+                <div className="card-header py-3 text-bg-primary border-primary">
+                  <h4 className="my-0 fw-normal">Ultra Pro</h4>
+                </div>
+                <div className="card-body">
+                  <h1 className="card-title pricing-card-title">₹999<small class="text-body-secondary fw-light">/month</small></h1>
+                  <ul className="list-unstyled mt-3 mb-4 d-block">
+                    <li>Fast Delivery</li>
+                    <li>Surprise Gift</li>
+                    <li>Phone and email support</li>
+                    <li>Unlimited Orders</li>
+                  </ul>
+                  <button type="button" className="btn btn-lg btn-primary">Contact us</button>
+                </div>
+              </div>
+            </div>
+          </div>
       <Footer />
     </>
   )

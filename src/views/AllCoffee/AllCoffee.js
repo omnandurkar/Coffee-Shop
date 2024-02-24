@@ -14,10 +14,10 @@ function AllCoffee() {
       <h2 className="text-center fs-24 mx-2  ">Menu</h2>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mx-2 ">
         {config.map((coffeedata, index) => {
-          const { img, title, content } = coffeedata;
+          const {id, img, title, content, price } = coffeedata;
           return (
             <div className="col">
-              <Cards img={img} title={title} content={content} />
+              <Cards key={index} id={id} img={img} title={title} content={content} price={price} />
             </div>
           );
         })}

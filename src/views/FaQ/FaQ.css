@@ -5,7 +5,7 @@
 }
 
 .heading{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: bold;
     width: 300px;
     padding-left: 100px;
@@ -76,5 +76,44 @@ span{
     }
     .queans-container{
         width: 40vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .header-container{
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 40px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .heading-title{
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .faq-img{
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .queans-container{
+        width: 70vh;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px){
+    .heading{
+        font-size: px;
+        padding-left: 80px;
+    }
+    
+    .heading-title{
+        font-size: 25px;
+    }
+    
+    .faq-img{
+        width: 450px;
     }
 }

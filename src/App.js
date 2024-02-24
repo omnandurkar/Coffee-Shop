@@ -30,7 +30,7 @@ function App() {
     },
 
     {
-      path: "/detail",
+      path: "/menu/:id",
       element: <CoffeeDetail/>
     },
 
