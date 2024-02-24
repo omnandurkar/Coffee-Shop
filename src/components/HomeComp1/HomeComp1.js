@@ -3,7 +3,8 @@ import React from 'react';
 import Image2 from './slider_1.png';
 import Image3 from './slider_4.png';
 import Image4 from './slider_5.png';
-import './HomeComp1.css'
+import './HomeComp1.css';
+import { Link } from 'react-router-dom';
 
 export default function HomeComp1() {
   return (
@@ -32,10 +33,10 @@ export default function HomeComp1() {
                       <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Espresso</h1>
                       <p className="lead">Experience the bold kick of our meticulously brewed espresso, crafted with precision for an intense and satisfying caffeine punch..</p>
                       <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="#" className="text-decoration-none ">
+                        <Link to="/menu" className="text-decoration-none ">
                           <button type="button" className="btn btn-outline-dark  btn-lg px-4 me-md-2">View
                             More</button>
-                        </a>
+                        </Link>
 
                       </div>
                     </div>
@@ -59,10 +60,10 @@ export default function HomeComp1() {
                       <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Cappuccino</h1>
                       <p className="lead">Indulge in the velvety smoothness of our cappuccino, where perfectly balanced espresso meets creamy steamed milk and frothy foam for a true Italian treat.</p>
                       <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="#" className="text-decoration-none ">
+                      <Link to="/menu" className="text-decoration-none ">
                           <button type="button" className="btn btn-outline-dark  btn-lg px-4 me-md-2">View
                             More</button>
-                        </a>
+                        </Link>
 
                       </div>
                     </div>
@@ -87,10 +88,10 @@ export default function HomeComp1() {
                       <p className="lead">Savor the creamy richness of our lattes, expertly crafted with a delicate balance of espresso and steamed milk, offering a comforting and satisfying sip every time.
                       </p>
                       <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="#" className="text-decoration-none ">
+                      <Link to="/menu" className="text-decoration-none ">
                           <button type="button" className="btn btn-outline-dark  btn-lg px-4 me-md-2">View
                             More</button>
-                        </a>
+                        </Link>
 
                       </div>
                     </div>

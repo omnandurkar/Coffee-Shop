@@ -9,6 +9,7 @@ import FaQ from "./views/FaQ/FaQ";
 import Review from "./views/Review/Review";
 import Subscriptions from "./views/Subscriptions/Subscriptions";
 import Blog from "./views/Blog/Blog";
+import LoginPage from "./views/LoginPage/LoginPage";
 
 function App() {
 
@@ -57,6 +58,11 @@ function App() {
     {
       path: "/blog",
       element: <Blog/>
+    },
+
+    {
+      path: "/login",
+      element: <LoginPage/>
     }
 
 
