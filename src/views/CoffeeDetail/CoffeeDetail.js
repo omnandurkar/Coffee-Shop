@@ -18,14 +18,14 @@ function CoffeeDetail() {
         })
     }, [id])
 
-    const increaseQuantity= () => {
+    const increaseQuantity = () => {
         const quantityElement = document.getElementById("quantity");
         let quantity = parseInt(quantityElement.innerText);
         quantityElement.innerText = ++quantity;
     }
 
 
-    const decreaseQuantity=() => {
+    const decreaseQuantity = () => {
         const quantityElement = document.getElementById("quantity");
         let quantity = parseInt(quantityElement.innerText);
         quantityElement.innerText = --quantity;
@@ -68,8 +68,10 @@ function CoffeeDetail() {
                             </div>
 
                             <div>
-                                <button type='button' className='btn bg-danger text-white  '>
-                                    Buy now
+                                <button
+                                    type="button"
+                                    className="btn btn-outline-dark    btn-md px-4 me-md-2 text-decoration-none "
+                                >Buy now
                                 </button>
 
                             </div>
