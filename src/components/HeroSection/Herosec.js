@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from '../Hero-section/img1.png'
-import '../Hero-section/Home1-bg.png'
+import img1 from '../HeroSection/img1.png'
+import '../HeroSection/Home1-bg.png'
 import '../HomeComp1/HomeComp1.css'
 
 function Herosec() {

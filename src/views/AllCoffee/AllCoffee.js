@@ -3,7 +3,7 @@ import Cards from "../../components/cards/Cards";
 import config from "../../config/coffee.json";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Herosec from "../../components/Hero-section/Herosec";
+import Herosec from "../../components/HeroSection/Herosec";
 import '../AllCoffee/Allcoffee.css'
 
 function AllCoffee() {
