@@ -15,18 +15,19 @@ function CoffeeDetail() {
         <>
             <Navbar />
 
-            <div className='sub-header-container d-flex'>
+            <div className='sub-header-container d-flex flex-row justify-content-around '>
 
                 <div className=''>
 
+                    <h1>Here is your clas</h1>
+
                 </div>
+
                 <div>
 
-
-                    <div className="col">
-                        <img src={img} />
+                    <div className="">
+                        <img className='h-4' src={img} />
                     </div>
-
 
                 </div>
             </div>
