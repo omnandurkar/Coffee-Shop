@@ -19,7 +19,7 @@ function FaQ() {
 
         <div>
 
-          <div className="accordion accordion-flush queans-container" id="accordionFlushExample">
+          <div className="accordion accordion-flush bg-warning-subtle queans-container" id="accordionFlushExample">
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button collapsed text-danger bg-warning-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
