@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Login.css'; // Import your custom CSS file for styling
+import './Login.css'; 
 import { Link } from 'react-router-dom';
 
 export default function Login() {
@@ -49,13 +49,13 @@ export default function Login() {
       <div className="g-font-b">
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           {!isLogin ? (
-            <Link to="/">
+            <Link to="/home">
               <div className='btn btn-dark btn-lg px-4 me-md-2 text-capitalize'>
                 Continue as Guest
               </div>
             </Link>
           ) : (
-            <Link to="/">
+            <Link to="/home">
               <div className='btn btn-dark btn-lg px-4 me-md-2 text-capitalize'>
                 Continue Your Coffee
               </div>

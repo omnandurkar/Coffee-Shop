@@ -17,6 +17,12 @@ function App() {
 
     {
       path: "/",
+      element: <LoginPage/>
+    },
+    
+    
+    {
+      path: "/home",
       element: <Home/>
     },
 
@@ -60,10 +66,7 @@ function App() {
       element: <Blog/>
     },
 
-    {
-      path: "/login",
-      element: <LoginPage/>
-    }
+   
 
 
 
