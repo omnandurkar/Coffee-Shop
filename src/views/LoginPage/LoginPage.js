@@ -15,7 +15,7 @@ export default function LoginPage() {
                   <img
                   
                     src={Image1}
-                    className="d-block mx-auto img-fluid "
+                    className="d-block mx-auto img-fluid float "
                     alt="Bootstrap Themes"
                     width="700"
                     height="500"
