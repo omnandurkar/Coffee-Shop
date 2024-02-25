@@ -82,7 +82,7 @@ const Footer = () => {
             <li><a className="fa-brands icons fa-instagram"></a></li>
           </ul>
           <ul className="links">
-            <Link to="/">
+            <Link to="/home">
             <li><a>Home</a></li>
             </Link>
 
