@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css'; 
 import { Link } from 'react-router-dom';
-import { Button } from 'bootstrap';
 
 export default function Login() {
   const [username, setUsername] = useState('');
@@ -48,18 +47,18 @@ export default function Login() {
   return (
     <div className="text-start">
       <div className="g-font-b">
-        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 justify-content-center ">
           {!isLogin ? (
             <Link to="/home">
-              <Button type="button" className='btn btn-dark btn-lg px-4 me-md-2 text-capitalize'>
+              <div className='btn btn-dark btn-lg px-4 me-md-2 text-capitalize'>
                 Continue as Guest
-              </Button>
+              </div>
             </Link>
           ) : (
             <Link to="/home">
-              <button type='button' className='btn btn-dark btn-lg px-4 me-md-2 text-capitalize'>
+              <div className='btn btn-dark btn-lg px-4 me-md-2 text-capitalize'>
                 Continue Your Coffee
-              </button>
+              </div>
             </Link>
           )}
           {!isLogin && (

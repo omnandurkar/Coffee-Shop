@@ -54,7 +54,7 @@ function Navbar() {
             </ul>
             <form className="d-flex g-font-b" role="search">
               {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
-              <Link to="/login">
+              <Link to="/">
                 <div className='btn btn-outline-dark '>
                   LOGIN
                 </div>
