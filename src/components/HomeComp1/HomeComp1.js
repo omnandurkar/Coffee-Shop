@@ -12,20 +12,17 @@ export default function HomeComp1() {
 
       <div className="containerrrr home-comp-1 mt-5">
 
-
         <div className="  border-top g-font-b ">
           <div id="carouselExampleAutoplaying" className="carousel slide " data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="5000">
 
-
                 <div className="container col-xxl-8 px-4 py-5">
                   <div className="row flex-lg-row align-items-center g-5 py-5">
 
-
                     <div className="col-10 col-sm-8 col-lg-6">
                       <img src={Image2}
-                        className="d-block mx-lg-auto img-fluid rounded float" alt="Doraemon Gadget" width="700"
+                        className="d-block mx-lg-auto img-fluid rounded float" alt="Coffee Cup" width="700"
                         height="500" loading="lazy" />
                     </div>
 
@@ -53,16 +50,17 @@ export default function HomeComp1() {
 
                     <div className="col-10 col-sm-8 col-lg-6">
                       <img src={Image3} className="d-block mx-lg-auto img-fluid rounded float  "
-                        alt="Doraemon Gadget" width="700" height="500" loading="lazy" />
+                        alt="Coffee-Cup" width="700" height="500" loading="lazy" />
                     </div>
 
                     <div className="col-lg-6">
                       <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Cappuccino</h1>
                       <p className="lead">Indulge in the velvety smoothness of our cappuccino, where perfectly balanced espresso meets creamy steamed milk and frothy foam for a true Italian treat.</p>
                       <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <Link to="/menu" className="text-decoration-none ">
+                        <Link to="/menu" className="text-decoration-none ">
                           <button type="button" className="btn btn-outline-dark  btn-lg px-4 me-md-2">View
-                            More</button>
+                            More
+                          </button>
                         </Link>
 
                       </div>
@@ -80,7 +78,7 @@ export default function HomeComp1() {
 
                     <div className="col-10 col-sm-8 col-lg-6">
                       <img src={Image4} className="d-block mx-lg-auto img-fluid rounded float "
-                        alt="Doraemon Gadget" width="700" height="500" loading="lazy" />
+                        alt="Coffee Cup" width="700" height="500" loading="lazy" />
                     </div>
 
                     <div className="col-lg-6">
@@ -88,15 +86,13 @@ export default function HomeComp1() {
                       <p className="lead">Savor the creamy richness of our lattes, expertly crafted with a delicate balance of espresso and steamed milk, offering a comforting and satisfying sip every time.
                       </p>
                       <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <Link to="/menu" className="text-decoration-none ">
+                        <Link to="/menu" className="text-decoration-none ">
                           <button type="button" className="btn btn-outline-dark  btn-lg px-4 me-md-2">View
-                            More</button>
+                            More
+                          </button>
                         </Link>
-
                       </div>
                     </div>
-
-
 
                   </div>
                 </div>

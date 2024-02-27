@@ -6,8 +6,7 @@ function Cards({ title, content, img }) {
   return (
     <div className="card-body m-2">
       <div className="card-3">
-        
-        
+      
           <p className="card-text ">
             "{content}"</p>
             <br/>
@@ -15,6 +14,7 @@ function Cards({ title, content, img }) {
           <img
             src={img} className="profile-image"
           ></img>
+          
         </div>
           
           <p className=" names">-{title}</p>
